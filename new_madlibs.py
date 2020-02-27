@@ -1,4 +1,4 @@
-
+import random
 
 # How many nouns: 12
 # How many plural nouns: 2
@@ -10,6 +10,8 @@
 # City Name: 1
 # Direction: 1 
 
+# needed_words = ["nouns", "plural nouns", "verbs", "verb, past tense", "-ing verb", "body part", "body parts", "adjective", "city name", "direction"]
+# Do I want to make seperate lists to draw from, or replace the words as I come accross them and prompt the user along the way? 
 nouns = []
 plural_nouns = []
 verbs = []
@@ -25,7 +27,7 @@ x = 0
 
 def insert_noun():
     for noun in nouns
-        this_noun = nouns[x]
+        this_noun = nouns[x]  #could make this a random choice and pop off... ?
     x += 1
     return this_noun
 
