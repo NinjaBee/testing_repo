@@ -1,4 +1,5 @@
-import random
+import random # from random import choice. With just "import random" must type random.choice to use. 
+#with from random import choice you can say "choice(a_list)" but may have nameing
 
 
 continue_game = input("Would you like to play madlibs? yes or no?\n:")
