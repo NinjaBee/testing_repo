@@ -25,7 +25,7 @@ def main():
             time.sleep(2)
 
         elif get_answer != 'ask':
-            print("Yeah...")
+            print("Yeah...\n")
             time.sleep(2)
             print("I wouldn't want to know the answer either...\n \n ")
             time.sleep(1)
