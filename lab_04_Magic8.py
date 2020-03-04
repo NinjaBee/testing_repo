@@ -28,6 +28,7 @@ def main():
             print("Yeah...")
             time.sleep(2)
             print("I wouldn't want to know the answer either...\n \n ")
+            time.sleep(1)
             break
 
 main()
