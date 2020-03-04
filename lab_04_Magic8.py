@@ -1,7 +1,7 @@
 import random 
 import time
 
-magic_answers = ["It doesn't look good...", "Don't look behing you.", "Yes.", "No.", \
+magic_answers = ["It doesn't look good...", "Don't look behind you.", "Yes.", "No.", \
     "There is a great chance!', 'Just do your best.", "It's highly likely!", "Odds are good!",\
      "Stranger things have happened...", "I wouldn't count on it.", "Good things happen to good people.", \
          "You get what you deserve.", "Just ask yourself....what would Scooby do?",]
@@ -17,7 +17,7 @@ def main():
             \n If you would like to think and come agian another day type "q."\n:').lower()
         
         if get_answer == 'ask':
-            question = input('Meditate on your question. Do you have it? When you are ready type "y" and hit enter....\n:')
+            question = input('Meditate on your question. Do you have it? When you are ready press any key and and hit enter....\n:')
             # time.sleep is being used in this block to add rhythm for the user.
             time.sleep(1)
             #Text color is being altered for the answer. I also decided to make answers upper case here. 
