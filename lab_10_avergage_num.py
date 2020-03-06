@@ -21,5 +21,10 @@ time.sleep(0.5)
 print(f"All the items added together came out to {str(list_sum)}...\n")
 time.sleep(2)
 print(f"with the average number being {str(list_sum / list_length)}.\n")
+time.sleep(1.5)
+print("Oh.... did you want to know what you entered too? Here...let me look.")
 
+for num in numbers:
+    print(str(num))
 
+print("\nThere! Now you know.")
