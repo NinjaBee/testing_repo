@@ -13,7 +13,9 @@ def main():
         if select_calc == "3" or select_calc == "exit":
             break 
         elif select_calc == "1":
-            pass 
+            calculation = input("Please type in your math problem: \n >")
+            time.sleep(1)
+            print(f"\nCongratulations! You have {str(eval(calculation))} fruit bats!\n")
         elif select_calc == "2":
             #Create functions to do the maths
             def minus(num1, num2):
@@ -38,7 +40,7 @@ def main():
             # Do some math
             answer = operation_dict[operation](first_num,second_num)
 
-            time.pause(1)
+            time.sleep(1)
 
             # Let the user see their answer. 
             print(f"\nCongratulations! You have {str(answer)} elephants!")
