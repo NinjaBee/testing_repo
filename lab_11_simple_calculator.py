@@ -13,6 +13,7 @@ def main():
         if select_calc == "3" or select_calc == "exit":
             break 
         elif select_calc == "1":
+            # WARNING: eval() is a dangerous (though conveinient) function to use. By giving user direct input to eval() they can access os and start deleting files, etc.
             calculation = input("Please type in your math problem: \n >")
             time.sleep(1)
             print(f"\nCongratulations! You have {str(eval(calculation))} fruit bats!\n")
