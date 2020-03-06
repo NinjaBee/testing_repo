@@ -5,7 +5,7 @@ numbers = []
 keep_adding == True 
 
 while keep_adding == True:
-    add_number = input("What number would you like to add to the list? If you do not wish to add any more, type 'done.').lower()
+    add_number = input("What number would you like to add to the list? If you do not wish to add any more, type 'done.'").lower()
     if add_number == "done":
         keep_adding = False 
     else:
