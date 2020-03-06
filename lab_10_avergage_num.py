@@ -18,7 +18,7 @@ list_length = int(len(numbers))
 time.sleep(3)
 print(f"\nYour list was {str(list_length)} items long.\n")
 time.sleep(0.5)
-print(f"All the items added together came out to {str(list_sum)}...\n"
+print(f"All the items added together came out to {str(list_sum)}...\n")
 time.sleep(2)
 print(f"with the average number being {str(list_sum / list_length)}.\n")
 
