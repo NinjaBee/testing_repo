@@ -1,5 +1,11 @@
 import random
 
+def select_word(list):
+    word = random.choice(list)
+    list.remove(word)
+    return word
+
+def main():
 # How many nouns: 12
 # How many plural nouns: 2
 # How many verbs: 2
@@ -12,24 +18,36 @@ import random
 
 # needed_words = ["nouns", "plural nouns", "verbs", "verb, past tense", "-ing verb", "body part", "body parts", "adjective", "city name", "direction"]
 # Do I want to make seperate lists to draw from, or replace the words as I come accross them and prompt the user along the way? 
-nouns = []
-plural_nouns = []
-verbs = []
-past_verbs = []
-ing_verbs = []
-adjectives = []
-body_parts = []
+    nouns = []
+    plural_nouns = []
+    verbs = []
+    past_verbs = []
+    ing_verbs = []
+    adjectives = []
+    body_parts = []
 
-city_name = input('Name a city you know ...or one from Harry Potter.')
-direction = input('State a direction... eg. Left, South...')
+    city_name = input('Name a city you know ...or one from Harry Potter.')
+    direction = input('State a direction... eg. Left, South...')
 
-x = 0
+    nouns_prompt = input('Please list 12 random nouns\n')
+    plural_n_prompt = input('Please list two plural nouns\n')
+    verbs_prompt = input('Please list 2 verbs. ex: "run"\n')
+    past_v_prompt = input('Please list two past tense verbs.\n')
+    ing_v_prompt = input('Please list two verbs ending in -ing.\n')
+    adj_prompt = input('Please list five adjectives.\n')
+    body_part_prompt = input('Please list two body parts.\n')
 
-def insert_noun():
-    for noun in nouns
-        this_noun = nouns[x]  #could make this a random choice and pop off... ?
-    x += 1
-    return this_noun
+
+
+
+
+
+
+# def insert_noun():
+#     for noun in nouns
+#         this_noun = nouns[x]  #could make this a random choice and pop off... ?
+#     x += 1
+#     return this_noun
 
 
 # Harry Potter MadLib #1 
