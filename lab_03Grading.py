@@ -1,5 +1,6 @@
 number_grade = int(input("What was the grade?\n:"))
 
+
 if number_grade > 90 :
     grade = "Congrats! You got an A!"
     
